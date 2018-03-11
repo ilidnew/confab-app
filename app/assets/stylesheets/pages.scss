@@ -14,12 +14,19 @@ h1, h2 {
   color: #4F4F4F;
   margin: 50px;
   position: relative;
+  font-size: 40px;
+  @media screen and (max-width: 500px) {
+    font-size: 32px;
+  }
 }
 
 #logo {
-  height: 60px;
+  height: 72px;
   align-self: center;
   position: relative;
+  @media screen and (max-width: 500px) {
+    height: 56px;
+  }
 }
 
 .homepage {
