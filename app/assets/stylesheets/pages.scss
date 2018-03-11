@@ -6,16 +6,20 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-h1 {
-  position: absolute;
-  top: 20vh;
+// h1 {
+//   padding-top: 75px;
+// }
+
+h1, h2 {
   color: #4F4F4F;
+  margin: 50px;
+  position: relative;
 }
 
 #logo {
-  height: 10vh;
-  position: absolute;
-  top: 30vh;
+  height: 60px;
+  align-self: center;
+  position: relative;
 }
 
 .homepage {
@@ -24,8 +28,9 @@ h1 {
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   position: relative;
+  text-align: center;
 
 
   &:before {
