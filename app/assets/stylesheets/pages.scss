@@ -12,7 +12,7 @@ body {
 
 h1, h2 {
   color: #4F4F4F;
-  margin: 50px;
+  margin: 1rem;
   position: relative;
   font-size: 40px;
   @media screen and (max-width: 500px) {
@@ -22,6 +22,7 @@ h1, h2 {
 
 #logo {
   height: 72px;
+  margin: 1rem;
   align-self: center;
   position: relative;
   @media screen and (max-width: 500px) {
@@ -51,3 +52,15 @@ h1, h2 {
   opacity: .6;
   }
   }
+
+.mailchimp-signup {
+  opacity: .8;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
